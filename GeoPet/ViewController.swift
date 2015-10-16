@@ -10,16 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var skull1: UIImageView!
+    @IBOutlet weak var skull2: UIImageView!
+    @IBOutlet weak var skull3: UIImageView!
+    @IBOutlet weak var heroImg: Hero!
+    @IBOutlet weak var heart: dragImg!
+    @IBOutlet weak var food: dragImg!
+    
+    
+    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+          
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+  
+    
+    
+    
+    
+    
 }
 

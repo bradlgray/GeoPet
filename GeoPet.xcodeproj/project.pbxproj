@@ -12,6 +12,8 @@
 		8F0994471BCF4A6C0075AC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F0994451BCF4A6C0075AC88 /* Main.storyboard */; };
 		8F0994491BCF4A6C0075AC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F0994481BCF4A6C0075AC88 /* Assets.xcassets */; };
 		8F09944C1BCF4A6C0075AC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F09944A1BCF4A6C0075AC88 /* LaunchScreen.storyboard */; };
+		8FF019D71BD04A6E00BC7805 /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF019D61BD04A6E00BC7805 /* dragImg.swift */; settings = {ASSET_TAGS = (); }; };
+		8FF019D91BD055CE00BC7805 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF019D81BD055CE00BC7805 /* Hero.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8F0994481BCF4A6C0075AC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F09944B1BCF4A6C0075AC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F09944D1BCF4A6C0075AC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF019D61BD04A6E00BC7805 /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
+		8FF019D81BD055CE00BC7805 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8F0994411BCF4A6C0075AC88 /* AppDelegate.swift */,
 				8F0994431BCF4A6C0075AC88 /* ViewController.swift */,
+				8FF019D81BD055CE00BC7805 /* Hero.swift */,
+				8FF019D61BD04A6E00BC7805 /* dragImg.swift */,
 				8F0994451BCF4A6C0075AC88 /* Main.storyboard */,
 				8F0994481BCF4A6C0075AC88 /* Assets.xcassets */,
 				8F09944A1BCF4A6C0075AC88 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0994441BCF4A6C0075AC88 /* ViewController.swift in Sources */,
+				8FF019D71BD04A6E00BC7805 /* dragImg.swift in Sources */,
 				8F0994421BCF4A6C0075AC88 /* AppDelegate.swift in Sources */,
+				8FF019D91BD055CE00BC7805 /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				8F0994521BCF4A6C0075AC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
